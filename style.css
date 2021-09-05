@@ -21,6 +21,11 @@ div {
     padding: 10px 20px;
     font-size: 18px;
 }
+h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 5px  aqua, -1px -1px 5px aqua;
+    box-shadow: 1px 1px 5px  aqua, -1px -1px 5px aqua;
+}
 .label {
     position: absolute;
     bottom: -55px;
@@ -42,5 +47,5 @@ input {
 }
 input:focus {
     outline: none;
-    box-shadow: 2px 5px 10px  aqua, -2px -5px 10px aqua;;
+    box-shadow: 2px 5px 10px  aqua, -2px -5px 10px aqua;
   }
