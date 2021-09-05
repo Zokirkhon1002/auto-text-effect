@@ -35,7 +35,7 @@ function nameSpeaker() {
 
     function speedSpeaker() {
         const tezlik = textSpeed.value;
-        const Speech = new SpeechSynthesisUtterance(tezlik + "speed");
+        const Speech = new SpeechSynthesisUtterance("Speed: " + tezlik);
         Speech.volume = 2;
         Speech.rate = 1;
         Speech.pitch = 2;
